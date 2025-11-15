@@ -1,0 +1,270 @@
+{
+    "personnel": [
+        {
+            "employee_id": "000",
+            "name": "张三",
+            "age": "35",
+            "gender": "男",
+            "phone_number": "198999999",
+            "assigment": [
+                {
+                    "department_id": "f24db8f3-3f29-4466-9053-a084c7f4b9ff",
+                    "position": "院长"
+                }
+            ]
+        },
+        {
+            "employee_id": "003",
+            "name": "王五",
+            "age": "36",
+            "gender": "女",
+            "phone_number": "19666666666",
+            "assigment": [
+                {
+                    "department_id": "f24db8f3-3f29-4466-9053-a084c7f4b9ff",
+                    "position": "办公室主任"
+                }
+            ]
+        },
+        {
+            "employee_id": "004",
+            "name": "赵六",
+            "age": "23",
+            "gender": "女",
+            "phone_number": "11966656665",
+            "assigment": []
+        },
+        {
+            "employee_id": "005",
+            "name": "绫波丽",
+            "age": "19",
+            "gender": "女",
+            "phone_number": "12348655466",
+            "assigment": [
+                {
+                    "department_id": "f24db8f3-3f29-4466-9053-a084c7f4b9ff",
+                    "position": "教授"
+                }
+            ]
+        },
+        {
+            "employee_id": "006",
+            "name": "凉宫春日",
+            "age": "19",
+            "gender": "女",
+            "phone_number": "19566665555",
+            "assigment": [
+                {
+                    "department_id": "f24db8f3-3f29-4466-9053-a084c7f4b9ff",
+                    "position": "讲师"
+                }
+            ]
+        },
+        {
+            "employee_id": "007",
+            "name": "王子钦",
+            "age": "20",
+            "gender": "男",
+            "phone_number": "19855554444",
+            "assigment": [
+                {
+                    "department_id": "f24db8f3-3f29-4466-9053-a084c7f4b9ff",
+                    "position": "副教授"
+                }
+            ]
+        },
+        {
+            "employee_id": "008",
+            "name": "泽村英梨梨",
+            "age": "19",
+            "gender": "女",
+            "phone_number": "12355548897",
+            "assigment": []
+        },
+        {
+            "employee_id": "009",
+            "name": "间桐樱",
+            "age": "19",
+            "gender": "女",
+            "phone_number": "18755556548",
+            "assigment": []
+        },
+        {
+            "employee_id": "010",
+            "name": "渡边早季",
+            "age": "20",
+            "gender": "女",
+            "phone_number": "19854887488",
+            "assigment": []
+        },
+        {
+            "employee_id": "011",
+            "name": "王小桃",
+            "age": "15",
+            "gender": "女",
+            "phone_number": "15178778988",
+            "assigment": []
+        }
+    ],
+    "departments": {
+        "department_id": "root",
+        "name": "同济大学",
+        "children": [
+            {
+                "department_id": "e77a01fe-fcad-4985-b843-4ed7b33bf775",
+                "name": "计算机科学与技术学院",
+                "children": [
+                    {
+                        "department_id": "f28c0ad7-90d0-4f8d-8668-c25ee3b6379e",
+                        "name": "计算机科学与技术专业",
+                        "children": [],
+                        "roles": {},
+                        "role_categories": {
+                            "主管": [],
+                            "副主管": [],
+                            "其他人员": []
+                        }
+                    },
+                    {
+                        "department_id": "65401d77-57b1-4e9f-bd98-8f77d8cf6b5c",
+                        "name": "大数据专业",
+                        "children": [],
+                        "roles": {},
+                        "role_categories": {
+                            "主管": [],
+                            "副主管": [],
+                            "其他人员": []
+                        }
+                    },
+                    {
+                        "department_id": "49cb246b-275e-44e2-a24e-cead46cada04",
+                        "name": "信息安全专业",
+                        "children": [],
+                        "roles": {},
+                        "role_categories": {
+                            "主管": [],
+                            "副主管": [],
+                            "其他人员": []
+                        }
+                    }
+                ],
+                "roles": {},
+                "role_categories": {
+                    "主管": [],
+                    "副主管": [],
+                    "其他人员": []
+                }
+            },
+            {
+                "department_id": "36197f81-89e9-4704-b3d5-34502c00b9f9",
+                "name": "电子与信息学院",
+                "children": [
+                    {
+                        "department_id": "1afbea2e-1622-4dad-ade2-7be957bcc63a",
+                        "name": "微电子专业",
+                        "children": [],
+                        "roles": {},
+                        "role_categories": {
+                            "主管": [],
+                            "副主管": [],
+                            "其他人员": []
+                        }
+                    },
+                    {
+                        "department_id": "15dac4f1-e650-4a1c-9304-29f82e7b8ceb",
+                        "name": "自动化专业",
+                        "children": [],
+                        "roles": {},
+                        "role_categories": {
+                            "主管": [],
+                            "副主管": [],
+                            "其他人员": []
+                        }
+                    },
+                    {
+                        "department_id": "287dd864-e8df-4d6b-8430-692e154499eb",
+                        "name": "人工智能专业",
+                        "children": [],
+                        "roles": {},
+                        "role_categories": {
+                            "主管": [],
+                            "副主管": [],
+                            "其他人员": []
+                        }
+                    },
+                    {
+                        "department_id": "9056803b-5f9e-45f7-b326-d0f1f2821b43",
+                        "name": "电气专业",
+                        "children": [],
+                        "roles": {},
+                        "role_categories": {
+                            "主管": [],
+                            "副主管": [],
+                            "其他人员": []
+                        }
+                    },
+                    {
+                        "department_id": "12f63b6a-47c9-4bf6-93a6-94dfe5978b4c",
+                        "name": "通信工程专业",
+                        "children": [],
+                        "roles": {},
+                        "role_categories": {
+                            "主管": [],
+                            "副主管": [],
+                            "其他人员": []
+                        }
+                    }
+                ],
+                "roles": {},
+                "role_categories": {
+                    "主管": [],
+                    "副主管": [],
+                    "其他人员": []
+                }
+            },
+            {
+                "department_id": "f24db8f3-3f29-4466-9053-a084c7f4b9ff",
+                "name": "医学院",
+                "children": [
+                    {
+                        "department_id": "3a0cf28c-e5f1-4baf-87ad-589f9a960786",
+                        "name": "口腔医学",
+                        "children": [],
+                        "roles": {},
+                        "role_categories": {
+                            "主管": [],
+                            "副主管": [],
+                            "其他人员": []
+                        }
+                    }
+                ],
+                "roles": {
+                    "院长": "000",
+                    "办公室主任": "003",
+                    "教授": "005",
+                    "讲师": "006",
+                    "副教授": "007"
+                },
+                "role_categories": {
+                    "主管": [
+                        "000"
+                    ],
+                    "副主管": [
+                        "003"
+                    ],
+                    "其他人员": [
+                        "005",
+                        "006",
+                        "007"
+                    ]
+                }
+            }
+        ],
+        "roles": {},
+        "role_categories": {
+            "主管": [],
+            "副主管": [],
+            "其他人员": []
+        }
+    }
+}
